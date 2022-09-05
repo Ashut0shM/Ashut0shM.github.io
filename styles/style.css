@@ -1,0 +1,65 @@
+:root{
+    --light-secondary: #FFFDE1;
+    --light-primary: #876445;
+    --light-tertiary: #FECD70;
+    --font: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: var(--light-secondary);
+}
+
+h1{
+    background-color: var(--light-tertiary);
+    font-family: var(--font);
+    font-size: 40px;
+    color: var(--light-primary);
+}
+
+.hello{
+    font-size: 25px;
+    color: var(--light-primary);
+    width: 110px;
+    padding-left: 2px;
+}
+
+.text{
+    background-color: var(--light-tertiary);
+    font-family: var(--font);
+    font-size: 25px;
+    color: var(--light-primary);
+    width: 800px;
+    padding-left: 2px;
+}
+
+.tech-info{
+    color: var(--light-primary);
+    width: 280px;
+    padding-left: 2px;
+}
+
+.tech{
+    color: var(--light-primary);
+    width: 270px;
+}
+
+#rust-logo{
+    padding-left: 1%;
+    padding-right: 2%;
+}
+
+#css-logo{
+    padding-right: 2%;
+}
+
+#js-logo{
+    padding-right: 2%;
+}
+
+#python-logo{
+    padding-right: 2%;
+}
+
+#html-logo{
+
+}
